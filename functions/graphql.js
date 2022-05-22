@@ -34,15 +34,23 @@ const resolvers = {
 
 const mocks = mocksData;
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-  mocks,
-  mockEntireSchema: false,
-  playground: true,
-});
+const getHandler = (event, context) => {
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    mocks,
+    mockEntireSchema: false,
+    playground: true,
+  });
 
-exports.handler = server.createHandler();
+  const graphqlHandler = server.createHandler();
+  if (!event.requestContext) {
+    event.requestContext = context;
+  }
+  return graphqlHandler(event, context);
+};
+
+exports.handler = getHandler;
 
 // server.listen().then(({ url }) => {
 //   console.log(`🚀 Server ready at ${url}`);
