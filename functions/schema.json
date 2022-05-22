@@ -1,0 +1,92 @@
+{
+  "contracts": [
+    {
+      "id": "VGV4dEJsb2NrTm9kZToxMDI3Mw==",
+      "name": "Sample NDA",
+      "textBlocks": [
+        {
+          "id": "VGV4dEJsb2NrTm9kZToxMDI3Mw==",
+          "text": "THIS AGREEMENT is dated 27th January 2021",
+          "blockNumber": 0,
+          "sentenceIndices": [
+            {
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        {
+          "id": "VGV4dEJsb2NrTm9kZToxMDI3OA==",
+          "text": "Each party wishes to disclose to the other party Confidential \nInformation in relation to the possibility of entering into a \ncommercial relationship (the Purpose). Each party wishes to \nensure that the other party maintains the confidentiality of\n its Confidential Information. In consideration of the benefits \nto the parties of the disclosure of the Confidential Information, \nthe parties have agreed to comply with the following terms \nregarding the use and disclosure of Confidential Information.",
+          "blockNumber": 1,
+          "sentenceIndices": [
+            {
+              "start": 0,
+              "end": 162
+            },
+            {
+              "start": 163,
+              "end": 274
+            },
+            {
+              "start": 275,
+              "end": 494
+            }
+          ]
+        },
+        {
+          "id": "VGV4dEJsb2NrTm9kZToxMDMyMQ==",
+          "text": "1) At the written request of the Disclosing Party, the Recipient shall:",
+          "blockNumber": 2,
+          "sentenceIndices": [
+            {
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        {
+          "id": "VGV4dEJsb2NrTm9kZToxMDMyMg==",
+          "text": "1) destroy or return to the Disclosing Party all documents and \nmaterials (and any copies) containing, reflecting, incorporating, or \nbased on the Disclosing Party's Confidential Information;",
+          "blockNumber": 3,
+          "sentenceIndices": [
+            {
+              "start": 0,
+              "end": 189
+            }
+          ]
+        },
+        {
+          "id": "VGV4dEJsb2NrTm9kZToxMDMyMw==",
+          "text": "2) erase all the Disclosing Party's Confidential Information from its \ncomputer systems or which is stored in electronic form (to the extent possible); and",
+          "blockNumber": 4,
+          "sentenceIndices": [
+            {
+              "start": 0,
+              "end": 150
+            },
+            {
+              "start": 151,
+              "end": 154
+            }
+          ]
+        },
+        {
+          "id": "VGV4dEJsb2NrTm9kZToxMDMyNA==",
+          "text": "3) confirm in writing to the Disclosing Party that it has complied\n with the requirements of this clause, provided that a Recipient may \nretain documents and materials containing, reflecting, incorporating, \nor based on the Disclosing Party's Confidential Information to the \nextent required by law or any applicable governmental or regulatory \nauthority and to the extent reasonable to permit the Recipient to \nkeep evidence that it has performed its obligations under this \nagreement. The provisions of this clause 3 shall continue to apply \nto any such documents and materials retained by the Recipient, \nsubject to clause 5.1.",
+          "blockNumber": 5,
+          "sentenceIndices": [
+            {
+              "start": 0,
+              "end": 479
+            },
+            {
+              "start": 480,
+              "end": 621
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
