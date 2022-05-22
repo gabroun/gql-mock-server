@@ -1,6 +1,6 @@
-import { ApolloServer, gql } from "apollo-server-lambda";
-import mocksData from "./mocks";
-import data from "./schema.json";
+const { ApolloServer, gql } = require("apollo-server-lambda");
+const mocksData = require("../src/mocks");
+const data = require("../src/schema.json");
 
 const typeDefs = gql`
   type TextBlock {

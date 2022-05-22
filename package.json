@@ -6,10 +6,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
-  },
   "devDependencies": {
     "encoding": "^0.1.13",
     "netlify-cli": "^10.3.1",
