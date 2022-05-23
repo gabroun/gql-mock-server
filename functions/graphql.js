@@ -51,7 +51,3 @@ const getHandler = (event, context) => {
 };
 
 exports.handler = getHandler;
-
-// server.listen().then(({ url }) => {
-//   console.log(`🚀 Server ready at ${url}`);
-// });
